@@ -6,11 +6,11 @@ provider "aws" {
   region = var.aws_region
 }
 
-variable "aws_region" {
+Variable "aws_region" {
     type = string
 }
 
-variable "vpc_id" {
+Variable "vpc_id" {
     type = string
 }
 
